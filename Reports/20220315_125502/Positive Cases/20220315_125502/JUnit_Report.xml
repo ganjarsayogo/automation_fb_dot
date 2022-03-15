@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positive Cases" time="28.263" tests="2" failures="0" errors="0">
+   <testsuite name="Positive Cases" tests="2" failures="0" errors="0" time="28.263" skipped="0" timestamp="2022-03-15 12:55:12" hostname="user - DESKTOP-HVUGG9G" id="Test Suites/Positive Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Facebook_Login_DOT\\Reports\\20220315_125502\\Positive Cases\\20220315_125502"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Facebook_Login_DOT\\Reports\\20220315_125502\\Positive Cases\\20220315_125502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-HVUGG9G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.155.209"/>
+         <property name="sessionId" value="ce4d17c2222a1934819db70c31697809"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Positive/Success Login with valid email and valid password" time="15.504" classname="Test Cases/Positive/Success Login with valid email and valid password" status="PASSED">
+         <system-out><![CDATA[2022-03-15 12:55:12 - [TEST_CASE][PASSED] - Test Cases/Positive/Success Login with valid email and valid password: Test Cases/Positive/Success Login with valid email and valid password
+
+2022-03-15 12:55:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-15 12:55:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 12:55:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 12:55:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 12:55:17 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/"): Navigate to 'https://web.facebook.com/' successfully
+
+2022-03-15 12:55:19 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/' successfully
+
+2022-03-15 12:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Facebook helps you connect and share _ccef60"), "ganjar.sayogo1@gmail.com"): Text 'ganjar.sayogo1@gmail.com' is set on object 'Object Repository/input_Facebook helps you connect and share _ccef60'
+
+2022-03-15 12:55:20 - [MESSAGE][PASSED] - Text 'ganjar.sayogo1@gmail.com' is set on object 'Object Repository/input_Facebook helps you connect and share _ccef60'
+
+2022-03-15 12:55:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Facebook helps you connect and share _ab63fc"), "v6+BrTLuxzQDl26QyXP8dQ=="): Text ****** has been set on object 'Object Repository/input_Facebook helps you connect and share _ab63fc'
+
+2022-03-15 12:55:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Facebook helps you connect and share _ab63fc'
+
+2022-03-15 12:55:21 - [TEST_STEP][PASSED] - click(findTestObject("button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+2022-03-15 12:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+2022-03-15 12:55:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("span_Welcome to Facebook, Sayogo"), "Welcome to Facebook, Sayogo"): Actual text and expected text of test object 'Object Repository/span_Welcome to Facebook, Sayogo' are matched.
+
+2022-03-15 12:55:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Welcome to Facebook, Sayogo' are matched.
+
+2022-03-15 12:55:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-15 12:55:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive/Success Login with valid mobile number and valid password" time="12.13" classname="Test Cases/Positive/Success Login with valid mobile number and valid password" status="PASSED">
+         <system-out><![CDATA[2022-03-15 12:55:28 - [TEST_CASE][PASSED] - Test Cases/Positive/Success Login with valid mobile number and valid password: Test Cases/Positive/Success Login with valid mobile number and valid password
+
+2022-03-15 12:55:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-15 12:55:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 12:55:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 12:55:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 12:55:30 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/"): Navigate to 'https://web.facebook.com/' successfully
+
+2022-03-15 12:55:32 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/' successfully
+
+2022-03-15 12:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Facebook helps you connect and share _ccef60"), "087789272067"): Text '087789272067' is set on object 'Object Repository/input_Facebook helps you connect and share _ccef60'
+
+2022-03-15 12:55:33 - [MESSAGE][PASSED] - Text '087789272067' is set on object 'Object Repository/input_Facebook helps you connect and share _ccef60'
+
+2022-03-15 12:55:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Facebook helps you connect and share _ab63fc"), "v6+BrTLuxzQDl26QyXP8dQ=="): Text ****** has been set on object 'Object Repository/input_Facebook helps you connect and share _ab63fc'
+
+2022-03-15 12:55:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Facebook helps you connect and share _ab63fc'
+
+2022-03-15 12:55:33 - [TEST_STEP][PASSED] - click(findTestObject("button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+2022-03-15 12:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+2022-03-15 12:55:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("span_Welcome to Facebook, Sayogo"), "Welcome to Facebook, Sayogo"): Actual text and expected text of test object 'Object Repository/span_Welcome to Facebook, Sayogo' are matched.
+
+2022-03-15 12:55:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/span_Welcome to Facebook, Sayogo' are matched.
+
+2022-03-15 12:55:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-15 12:55:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 12:55:12 - [TEST_SUITE][PASSED] - Positive Cases: Test Cases/Positive/Success Login with valid mobile number and valid password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

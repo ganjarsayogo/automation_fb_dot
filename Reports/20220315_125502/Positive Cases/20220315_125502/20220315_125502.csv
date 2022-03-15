@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Cases,Chrome 99.0.4844.51,,,2022-03-15 12:55:12,2022-03-15 12:55:40,28.263s,PASSED
+,,,,,,,
+Test Cases/Positive/Success Login with valid email and valid password,Chrome 99.0.4844.51,,,2022-03-15 12:55:12,2022-03-15 12:55:28,15.504s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 12:55:13,2022-03-15 12:55:17,3.908s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:17,2022-03-15 12:55:19,1.577s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""ganjar.sayogo1@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:19,2022-03-15 12:55:20,1.127s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 99.0.4844.51,,,2022-03-15 12:55:20,2022-03-15 12:55:21,0.714s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 12:55:21,2022-03-15 12:55:21,0.534s,PASSED
+"verifyElementText(findTestObject(""span_Welcome to Facebook, Sayogo""), ""Welcome to Facebook, Sayogo"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:21,2022-03-15 12:55:27,5.928s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 12:55:27,2022-03-15 12:55:28,0.794s,PASSED
+,,,,,,,
+Test Cases/Positive/Success Login with valid mobile number and valid password,Chrome 99.0.4844.51,,,2022-03-15 12:55:28,2022-03-15 12:55:40,12.130s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 12:55:29,2022-03-15 12:55:30,1.534s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:30,2022-03-15 12:55:32,1.522s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""087789272067"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:32,2022-03-15 12:55:33,0.951s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 99.0.4844.51,,,2022-03-15 12:55:33,2022-03-15 12:55:33,0.702s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 12:55:33,2022-03-15 12:55:34,0.471s,PASSED
+"verifyElementText(findTestObject(""span_Welcome to Facebook, Sayogo""), ""Welcome to Facebook, Sayogo"")",Chrome 99.0.4844.51,,,2022-03-15 12:55:34,2022-03-15 12:55:39,5.441s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 12:55:39,2022-03-15 12:55:40,0.806s,PASSED

@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative Cases,Chrome 99.0.4844.51,,,2022-03-15 13:06:12,2022-03-15 13:07:37,1m - 25.233s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with blank email and blank password,Chrome 99.0.4844.51,,,2022-03-15 13:06:13,2022-03-15 13:06:22,9.655s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:06:14,2022-03-15 13:06:18,4.059s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:18,2022-03-15 13:06:19,1.565s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:06:19,2022-03-15 13:06:20,0.644s,PASSED
+"verifyElementText(findTestObject(""div_The email address or mobile number you entered isnt connected to an account. Find your account and log in""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 99.0.4844.51,,,2022-03-15 13:06:20,2022-03-15 13:06:22,1.690s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:06:22,2022-03-15 13:06:22,0.751s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with blank email and valid password,Chrome 99.0.4844.51,,,2022-03-15 13:06:22,2022-03-15 13:06:31,8.513s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:06:23,2022-03-15 13:06:25,2.005s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:25,2022-03-15 13:06:27,1.630s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 99.0.4844.51,,,2022-03-15 13:06:27,2022-03-15 13:06:28,0.656s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:06:28,2022-03-15 13:06:28,0.727s,PASSED
+"verifyElementText(findTestObject(""div_The email address or mobile number you entered isnt connected to an account. Find your account and log in""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 99.0.4844.51,,,2022-03-15 13:06:28,2022-03-15 13:06:30,1.884s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:06:30,2022-03-15 13:06:31,0.743s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with invalid email and valid password,Chrome 99.0.4844.51,,,2022-03-15 13:06:31,2022-03-15 13:06:40,9.600s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:06:31,2022-03-15 13:06:33,1.513s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:33,2022-03-15 13:06:34,1.440s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""sayogo.ganjar1@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:34,2022-03-15 13:06:35,0.871s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 99.0.4844.51,,,2022-03-15 13:06:35,2022-03-15 13:06:36,0.692s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:06:36,2022-03-15 13:06:37,0.525s,PASSED
+"verifyElementText(findTestObject(""div_The email address you entered isnt connected to an account. Create a new Facebook account""), ""The email address you entered isn't connected to an account. Find your account and log in."")",Chrome 99.0.4844.51,,,2022-03-15 13:06:37,2022-03-15 13:06:40,3.241s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:06:40,2022-03-15 13:06:40,0.745s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with invalid phone number and valid password,Chrome 99.0.4844.51,,,2022-03-15 13:06:40,2022-03-15 13:06:52,11.985s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:06:41,2022-03-15 13:06:43,1.470s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:43,2022-03-15 13:06:44,1.536s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""0877892720677"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:44,2022-03-15 13:06:45,0.821s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""v6+BrTLuxzQDl26QyXP8dQ=="")",Chrome 99.0.4844.51,,,2022-03-15 13:06:45,2022-03-15 13:06:46,0.669s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:06:46,2022-03-15 13:06:46,0.464s,PASSED
+"verifyElementText(findTestObject(""div_The mobile number you entered isnt connected to an account. Create a new Facebook account""), ""The mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 99.0.4844.51,,,2022-03-15 13:06:46,2022-03-15 13:06:52,5.566s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:06:52,2022-03-15 13:06:52,0.746s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with valid email and blank password,Chrome 99.0.4844.51,,,2022-03-15 13:06:52,2022-03-15 13:07:03,10.112s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:06:53,2022-03-15 13:06:55,1.539s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:55,2022-03-15 13:06:56,1.509s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""ganjar.sayogo1@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:56,2022-03-15 13:06:57,0.879s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:06:57,2022-03-15 13:06:58,0.560s,PASSED
+"verifyElementText(findTestObject(""div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Chrome 99.0.4844.51,,,2022-03-15 13:06:58,2022-03-15 13:07:02,4.303s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:07:02,2022-03-15 13:07:03,0.777s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with valid email and invalid password,Chrome 99.0.4844.51,,,2022-03-15 13:07:03,2022-03-15 13:07:14,11.324s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:07:03,2022-03-15 13:07:05,1.468s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:05,2022-03-15 13:07:06,1.730s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""ganjar.sayogo1@gmail.com"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:06,2022-03-15 13:07:07,0.876s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""j42xMHYx3xT8FShIAQJSdw=="")",Chrome 99.0.4844.51,,,2022-03-15 13:07:07,2022-03-15 13:07:08,0.683s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:07:08,2022-03-15 13:07:08,0.485s,PASSED
+"verifyElementText(findTestObject(""div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:08,2022-03-15 13:07:13,4.678s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:07:13,2022-03-15 13:07:14,0.824s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with valid phone number and blank password,Chrome 99.0.4844.51,,,2022-03-15 13:07:14,2022-03-15 13:07:25,11.006s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:07:15,2022-03-15 13:07:16,1.545s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:16,2022-03-15 13:07:18,1.528s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""087789272067"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:18,2022-03-15 13:07:19,0.841s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:07:19,2022-03-15 13:07:19,0.599s,PASSED
+"verifyElementText(findTestObject(""div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:19,2022-03-15 13:07:24,5.013s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:07:24,2022-03-15 13:07:25,0.732s,PASSED
+,,,,,,,
+Test Cases/Negative/Failed Login with valid phone number and invalid password,Chrome 99.0.4844.51,,,2022-03-15 13:07:25,2022-03-15 13:07:37,12.344s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 13:07:26,2022-03-15 13:07:27,1.466s,PASSED
+"navigateToUrl(""https://web.facebook.com/"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:27,2022-03-15 13:07:29,1.491s,PASSED
+"setText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ccef60""), ""087789272067"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:29,2022-03-15 13:07:29,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Facebook helps you connect and share _ab63fc""), ""j42xMHYx3xT8FShIAQJSdw=="")",Chrome 99.0.4844.51,,,2022-03-15 13:07:29,2022-03-15 13:07:30,0.663s,PASSED
+"click(findTestObject(""button_Log In""))",Chrome 99.0.4844.51,,,2022-03-15 13:07:30,2022-03-15 13:07:31,0.478s,PASSED
+"verifyElementText(findTestObject(""div_The password that youve entered is incorrect. Forgotten password""), ""The password that you've entered is incorrect. Forgotten password?"")",Chrome 99.0.4844.51,,,2022-03-15 13:07:31,2022-03-15 13:07:37,5.933s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 13:07:37,2022-03-15 13:07:37,0.755s,PASSED

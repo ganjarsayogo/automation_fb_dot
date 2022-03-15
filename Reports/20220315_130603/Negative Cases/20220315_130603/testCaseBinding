@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Negative/Failed Login with blank email and blank password","testCaseId":"Test Cases/Negative/Failed Login with blank email and blank password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with blank email and valid password","testCaseId":"Test Cases/Negative/Failed Login with blank email and valid password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with invalid email and valid password","testCaseId":"Test Cases/Negative/Failed Login with invalid email and valid password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with invalid phone number and valid password","testCaseId":"Test Cases/Negative/Failed Login with invalid phone number and valid password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with valid email and blank password","testCaseId":"Test Cases/Negative/Failed Login with valid email and blank password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with valid email and invalid password","testCaseId":"Test Cases/Negative/Failed Login with valid email and invalid password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with valid phone number and blank password","testCaseId":"Test Cases/Negative/Failed Login with valid phone number and blank password"}
+{"testCaseName":"Test Cases/Negative/Failed Login with valid phone number and invalid password","testCaseId":"Test Cases/Negative/Failed Login with valid phone number and invalid password"}
